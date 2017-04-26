@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Excel-helper</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<div class="dataSource-container">
+    <div id="import" class="btn">＋ 选择文件</div>
+    <div class="description">
+        ● 支持将源Excel拖入虚线框内<br/>
+        ● 支持多选或一次拖入多个文件
+    </div>
+    <div class="dataSource"></div>
+</div>
+<div class="exportOptions">
+    <div style="padding-left: 20px;padding-top:60px">● 选择导出类型</div>
+    <div class="outType-container">
+        <input name="outType" type="radio" id="SF" checked class="outType" value="SF"><label for="SF">顺丰</label></input>
+    </div>
+    <div class="outType-container">
+        <input name="outType" type="radio" id="YT" class="outType" value="YT"><label for="YT">圆通</label></input>
+    </div>
+</div>
+<div class="toolbar">
+    <div id="removeAll" class="btn">× 清空已选</div>
+    <div id="export" class="btn"> √ 导出</div>
+    <div style="display:inline-block;float:right">已选文件：<span id="selectedCounts">0</span></div>
+</div>
+<script src="../main.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

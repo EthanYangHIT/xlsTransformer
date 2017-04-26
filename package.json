@@ -1,0 +1,20 @@
+{
+  "name": "xls-transformer",
+  "version": "1.0.0",
+  "description": "依照模板导出快递excel",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "excel",
+    "Electron"
+  ],
+  "author": "Ethan",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^1.4.15",
+    "xlsx": "^0.8.3"
+  }
+}

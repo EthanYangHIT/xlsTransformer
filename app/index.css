@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #eff4f8;
+    font-family: "Microsoft YaHei", arial, SimSun, 宋体;
+}
+
+.dataSource-container {
+    vertical-align: top;
+    display: inline-block;
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+.dataSource {
+    background-color: #fff;
+    margin-top: 10px;
+    height: 300px;
+    border: 1px dashed lightblue;
+    overflow-y: auto;
+}
+
+.description {
+    padding-left: 20px;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+#export {
+    width: 100px;
+    margin-left: 40px;
+}
+
+.btn {
+    -webkit-user-select: none;
+    text-align: center;
+    display: inline-block;
+    padding: 0 5px;
+    color: #fff;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: dodgerblue;
+}
+
+.outType-container {
+    padding: 30px 0;
+    margin-left: 40px;
+}
+
+.outType {
+    display: inline-block;
+}
+
+.toolbar {
+    width: 60%
+}
+
+.exportOptions {
+    display: inline-block;
+    width: 35%;
+}
+
+.fileList {
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 5px 5px;
+    font-size: 14px;
+}
+
+.fileList:hover {
+    background-color: cornflowerblue;
+    color: #fff;
+}
